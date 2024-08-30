@@ -609,135 +609,6 @@ end
 
 
 function A9()
-l = gg.choice({
-"𓋹 Mythic skins",
-"𓋹 Legendary skins",
-"𓋹 Character skins",
-"ᴄᴀɴᴄᴇʟ",
-},nil, "𓆣 Void 𝙳𝙴𝙻𝚄𝚇𝙴 𝚂𝙲𝚁𝙸𝙿𝚃 𝙲𝙾𝙳𝙼 1.6.45 𓆣")
-if l == nil then else
-if l == 1 then mt() end
-if l == 2 then leg() end
-if l == 3 then ct() end
-if l == 4 then home() end
-end
-VOID = -1
-end
-
-function ct()
-g = gg.multiChoice({
-"𓂀 TEMPLAR Mythic",
-"𓂀 SPECTRE Mythic",
-"𓂀 NYX LEGENDARY",
-"𓂀 DAME LEGENDARY",
-"𓂀 ARTERY OG",
-"ʙᴀᴄᴋ",
-},nil, "𓆣 Void 𝙳𝙴𝙻𝚄𝚇𝙴 𝚂𝙲𝚁𝙸𝙿𝚃 𝙲𝙾𝙳𝙼 1.6.45 𓆣")
-if g == nil then else
-if g[1] == true then templar() end
-if g[2] == true then spectre() end
-if g[3] == true then nyx() end
-if g[4] == true then dame() end
-if g[5] == true then artery() end
-if g[6] == true then A3() end
-end
-end
-
-function nyx()
-gg.clearResults()
-gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber("710001101", gg.TYPE_DWORD)
-gg.getResults(10000)
-gg.editAll("710,003,067", gg.TYPE_DWORD)
-gg.clearResults()
-gg.searchNumber("710001102", gg.TYPE_DWORD)
-gg.getResults(10000)
-gg.editAll("710,003,068", gg.TYPE_DWORD)
-gg.clearResults()
-gg.searchNumber("710001103", gg.TYPE_DWORD)
-gg.getResults(10000)
-gg.editAll("710,003,069", gg.TYPE_DWORD)
-gg.clearResults()
-gg.toast("𝗡𝗬𝗫 𝗟𝗘𝗚𝗘𝗡𝗗 𝗖𝗛𝗔𝗥𝗔𝗖𝗧𝗘𝗥 𝗗𝗢𝗡𝗘")
-end
-
-function dame() 
-gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber("710001101", gg.TYPE_DWORD)
-gg.getResults(10000)
-gg.editAll("710004111", gg.TYPE_DWORD)
-gg.clearResults()
-gg.searchNumber("710001102", gg.TYPE_DWORD)
-gg.getResults(10000)
-gg.editAll("710004112", gg.TYPE_DWORD)
-gg.clearResults()
-gg.searchNumber("710001103", gg.TYPE_DWORD)
-gg.getResults(10000)
-gg.editAll("710004113", gg.TYPE_DWORD)
-gg.clearResults()
-gg.toast("𝗗𝗔𝗠𝗘 𝗟𝗘𝗚𝗘𝗡𝗗 𝗖𝗛𝗔𝗥𝗔𝗖𝗧𝗘𝗥 𝗗𝗢𝗡𝗘")
-end
-
-function artery()
-gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber(":Telegram-DuxinoYT", gg.TYPE_DWORD)
-gg.getResults(10000)
-gg.clearResults()
-gg.searchNumber(":YouTube-DuxinoYT", gg.TYPE_DWORD)
-gg.getResults(10000)
-gg.clearResults()
-gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber("710001101", gg.TYPE_DWORD)
-gg.getResults(10000)
-gg.editAll("710000366", gg.TYPE_DWORD)
-gg.clearResults()
-gg.searchNumber("710001102", gg.TYPE_DWORD)
-gg.getResults(10000)
-gg.editAll("710000367", gg.TYPE_DWORD)
-gg.clearResults()
-gg.searchNumber("710001103", gg.TYPE_DWORD)
-gg.getResults(10000)
-gg.editAll("710000368", gg.TYPE_DWORD)
-gg.clearResults()
-gg.toast("𝗔𝗥𝗧𝗘𝗥𝗬 𝗢𝗚 𝗔𝗖𝗧𝗜𝗩𝗔𝗧𝗘")
-end
-
-
-function templar()
-gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber("710001101", gg.TYPE_DWORD)
-gg.getResults(10000)
-gg.editAll("710003205", gg.TYPE_DWORD)
-gg.clearResults()
-gg.searchNumber("710001102", gg.TYPE_DWORD)
-gg.getResults(10000)
-gg.editAll("710003206", gg.TYPE_DWORD)
-gg.clearResults()
-gg.searchNumber("710001103", gg.TYPE_DWORD)
-gg.getResults(10000)
-gg.editAll("710003204", gg.TYPE_DWORD)
-gg.clearResults()
-gg.toast("Skin Injected")
-end
-
-function spectre()
-gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber("710001101", gg.TYPE_DWORD)
-gg.getResults(10000)
-gg.editAll("710002568", gg.TYPE_DWORD)
-gg.clearResults()
-gg.searchNumber("710001102", gg.TYPE_DWORD)
-gg.getResults(10000)
-gg.editAll("710002569", gg.TYPE_DWORD)
-gg.clearResults()
-gg.searchNumber("710001103", gg.TYPE_DWORD)
-gg.getResults(10000)
-gg.editAll("710002570", gg.TYPE_DWORD)
-gg.clearResults()
-gg.toast("Skin Injected")
-end
-
-function A3()
 c = gg.prompt({
 "𓇽 CAMO PIXELTED",
 "𓇽 CX9 MITHIC",
@@ -1093,12 +964,10 @@ gg.editAll("602000596", gg.TYPE_DWORD)
 gg.clearResults()
 gg.toast("ᴅᴏɴᴇ")
 end
-  
-  
 
 
 function A10()
-mama = gg["multiChoice"]({
+  mama = gg["multiChoice"]({
       "𝙍𝙚𝙙 𝙨𝙠𝙮",
       "𝙂𝙧𝙚𝙚𝙣 𝙨𝙠𝙮",
       "𝙋𝙪𝙧𝙥𝙡𝙚 𝙨𝙠𝙮",
