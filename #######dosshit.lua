@@ -1093,7 +1093,6 @@ gg.editAll("602000596", gg.TYPE_DWORD)
 gg.clearResults()
 gg.toast("ᴅᴏɴᴇ")
 end
-end
   
   
 
