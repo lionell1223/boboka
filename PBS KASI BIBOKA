@@ -1,0 +1,323 @@
+function setValues(address, flags, value) gg.setValues({[1] = {address = address, flags = flags, value = value}}) end
+gg.clearResults()
+gg.clearList()
+YACHIRU = 1
+function HOME()
+multi = gg.multiChoice({
+"𝚁𝙴𝙲𝙾𝙸𝙻! 𝚅𝟷(bug(stable))",
+"𝙽𝙾 𝚁𝙴𝙲𝙾𝙸𝙻! 𝚅𝟸(𝙽𝙴𝚆(stable))",
+"𝙰𝙽𝚃𝙴𝙽𝙰! 𝚅2(stable)) ",
+"𝙰𝙽𝚃𝙴𝙽𝙰! 𝚅3(𝙽𝙴𝚆!(Stable)) ",
+"𝙲𝙰𝙼𝙴𝚁𝙰 𝙷𝙰𝙲𝙺 𝙽𝙾 𝚁𝙰𝙽𝙺!(stable))",
+"𝙰𝙸𝙼𝙰𝚂𝚂𝙸𝚂𝚃!(𝙱𝚁𝚄𝚃𝙰𝙻(stable))",
+"𝐋𝐎𝐁𝐁𝐘 𝐁𝐘𝐏𝐀𝐒𝐒(𝐋𝐎𝐁𝐁𝐘)",
+"𝐌𝐄𝐌𝐎𝐑𝐘 𝐁𝐘𝐏𝐀𝐒𝐒 (𝐋𝐎𝐁𝐁𝐘) ",
+"SPEEDHACK",
+"✘𝐓𝐞𝐫𝐦𝐢𝐧𝐚𝐭𝐞 𝐒𝐜𝐫𝐢𝐩𝐭✘"
+},nil,'✵∘𝙳𝙾𝚂 𝙿𝙴𝚁𝚂𝙾𝙽𝙰𝙻 𝚂𝙲𝚁𝙸𝙿𝚃 𝙿𝙱𝚂 𝟷.𝟶𝟶𝟹.𝟼𝟹𝟿𝟸𝟽𝟷∘☯︎')
+if multi == nil then else
+if multi[1] == true then c1() end
+if multi[2] == true then c2() end
+if multi[3] == true then c3() end
+if multi[4] == true then c4() end
+if multi[5] == true then c5() end
+if multi[6] == true then c6() end
+if multi[7] == true then c7() end
+if multi[8] == true then c8() end
+if multi[9] == true then c9() end
+if multi [10]== true then c10() end
+end
+YACHIRU = -1
+end
+
+function c1()
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("1.75;1.03499996662", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+gg.getResults(1000)
+gg.editAll("0.1", gg.TYPE_FLOAT)
+gg.toast("𝙽𝙾 𝚁𝙴𝙲𝙾𝙸𝙻 𝚅𝟷(stable)activate")
+gg.clearResults()
+gg.setVisible(false)
+gg.clearResults()
+end
+
+function c2()
+gg.clearResults()
+gg.searchNumber("0.0001F;8.42247359e-33F;-5.48023724e27F;-6.9901398e29F;-3.5543774e34F:17", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+gg.refineNumber("0.0001", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+gg.getResults(30000)
+gg.editAll("1", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.searchNumber("89128.9609375F;1.03499996662F;-8.80247626e-7F;1.40129846e-45F:13", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("89128.9609375F;1.03499996662F;-8.80247626e-7F;1.40129846e-45F:13", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+gg.searchNumber("1.03499996662", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+gg.getResults(30000)
+gg.editAll("0.5", gg.TYPE_FLOAT)
+gg.processResume()
+gg.setValues({})
+gg.getResults(30000)
+gg.editAll("1", gg.TYPE_FLOAT)
+gg.processResume()
+gg.setValues({})
+gg.getResults(30000)
+gg.editAll("-1", gg.TYPE_FLOAT)
+gg.processResume()
+gg.setValues({})
+gg.getResults(30000)
+gg.editAll("0.9", gg.TYPE_FLOAT)
+gg.processResume()
+gg.setValues({})
+gg.getResults(30000)
+gg.editAll("0.7", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setVisible(false)
+gg.toast("𝙾𝙿!𝙽𝙾 𝚁𝙴𝙲𝙾𝙸𝙻(stable)activate")
+gg.clearResults()
+end
+
+function c3()
+gg.clearResults()
+gg.searchNumber("1.07758331299", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+gg.getResults(10000, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("-9999", gg.TYPE_FLOAT)
+gg.searchNumber("0.08864135295", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+gg.getResults(10000, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("-9999", gg.TYPE_FLOAT)
+gg.setValues({})
+gg.getResults(10000, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("-9999", gg.TYPE_FLOAT)
+gg.setValues({})
+gg.searchNumber("1.07758331299", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+gg.setValues({})
+gg.clearResults()
+gg.searchNumber("1.07758331299", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+gg.getResults(10000, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.getResults(10000, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.addListItems({})
+gg.setValues({})
+gg.setValues({})-
+gg.searchNumber("1.07758331299", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+gg.processResume()
+gg.getResults(10000, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.getResults(10000, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.addListItems({})
+gg.toast("𝙰𝙽𝚃𝙴𝙽𝙽𝙰(stable)activate")
+gg.clearResults()
+end
+
+
+
+function c4()
+gg.clearResults()
+gg.searchNumber("1.07758331299", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+gg.getResults(10000, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("-9999", gg.TYPE_FLOAT)
+gg.searchNumber("0.08864135295", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+gg.getResults(10000, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("-9999", gg.TYPE_FLOAT)
+gg.setValues({})
+gg.getResults(10000, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("-9999", gg.TYPE_FLOAT)
+gg.setValues({})
+gg.searchNumber("1.07758331299", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+gg.setValues({})
+gg.clearResults()
+gg.searchNumber("1.07758331299", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+gg.getResults(10000, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.getResults(10000, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.addListItems({})
+gg.setValues({})
+gg.setValues({})
+gg.searchNumber("1.07758331299", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+gg.processResume()
+gg.getResults(10000, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.getResults(10000, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.addListItems({})
+gg.toast("𝙰𝙽𝚃𝙴𝙽𝙽𝙰 𝚅3(stable)activate")
+gg.clearResults()
+end
+
+
+function c5()
+gg.clearResults()
+gg.setRanges(gg.REGION_VIDEO)
+gg.searchNumber("0.06820359826;0.11999999732", gg.TYPE_DWORD)
+gg.getResults(500)
+gg.editAll("3", gg.TYPE_DWORD)
+gg.toast("𝙲𝙰𝙼𝙴𝚁𝙰 𝙷𝙰𝙲𝙺(stable)activate")
+gg.clearResults()
+end
+
+
+function c6()
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("1.0F;4.59177481e-39F:17", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+gg.getResults(10)
+gg.editAll("0.07", gg.TYPE_FLOAT)
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("1.0F;4.59177481e-39F:17", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+gg.getResults(10)
+gg.editAll("-0.07", gg.TYPE_FLOAT)
+gg.toast("𝙰𝙸𝙼𝙱𝙾𝚃(stable)activate")
+gg.clearResults()
+gg.setVisible(false)
+end
+
+
+function c7()
+gg.clearResults()
+gg.setVisible(false)
+gg.setRanges(gg.REGION_CODE_APP | gg.REGION_ANONYMOUS | gg.REGION_C_ALLOC)
+gg.searchNumber(":proxy", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(1000)
+gg.editAll("0", gg.TYPE_BYTE)
+gg.toast("𝙻𝙾𝙱𝙱𝚈 𝙱𝚈𝙿𝙰𝚂𝚂 𝙰𝙲𝚃𝙸𝚅𝙰𝚃𝙴𝙳")
+gg.setVisible(true)
+gg.clearResults()
+end
+
+function c8()
+gg.alert("maintain gameplay to not get banned()")
+--[[
+gg.addBypassFrom("application : BYPASS BS")
+gg.addBypassFrom("application : BYPASS BS")
+gg.addBypassFrom("application : BYPASS BS")
+gg.addBypassFrom("application : BYPASS BS")
+gg.addBypassFrom("application : BYPASS BS")
+gg.addBypassFrom("application : BYPASS BS")
+gg.addBypassFrom("application : BYPASS BS")
+gg.addBypassFrom("application : BYPASS BS")
+gg.addBypassFrom("application : BYPASS BS")
+gg.addBypassFrom("application : BYPASS BS")
+gg.addBypassFrom("application : BYPASS BS")
+gg.addBypassFrom("application : BYPASS BS")
+gg.addBypassFrom("application : BYPASS BS")
+gg.addBypassFrom("application : BYPASS BS")
+gg.addBypassFrom("application : BYPASS BS")
+gg.addBypassFrom("application : BYPASS BS")
+gg.addBypassFrom("application : BYPASS BS")
+gg.addBypassFrom("application : BYPASS BS")
+gg.addBypassFrom("application : BYPASS BS")
+gg.addBypassFrom("application : BYPASS BS")
+gg.addBypassFrom("application : BYPASS BS")
+gg.addBypassFrom("application : BYPASS BS")
+gg.addBypassFrom("application : BYPASS BS")
+gg.addBypassFrom("application : BYPASS BS")
+gg.addBypassFrom("application : BYPASS BS")
+gg.addBypassFrom("application : BYPASS BS")
+gg.addBypassFrom("application : BYPASS BS")
+gg.addBypassFrom("application : BYPASS BS")
+gg.addBypassFrom("application : BYPASS BS")
+gg.addBypassFrom("application : BYPASS BS")
+gg.addBypassFrom("application : BYPASS BS")
+gg.addBypassFrom("application : BYPASS BS")
+gg.addBypassFrom("application : BYPASS BS")
+gg.addBypassFrom("application : BYPASS BS")
+gg.addBypassFrom("application : BYPASS BS")
+gg.addBypassFrom("application : BYPASS BS")
+gg.addBypassFrom("application : BYPASS BS")
+gg.addBypassFrom("application : BYPASS BS")
+gg.addBypassFrom("application : BYPASS BS")
+gg.addBypassFrom("application : BYPASS BS")
+gg.addBypassFrom("application : BYPASS BS")
+gg.addBypassFrom("application : BYPASS BS")
+gg.addBypassFrom("application : BYPASS BS")
+gg.addBypassFrom("application : BYPASS BS")
+gg.addBypassFrom("application : BYPASS BS")
+gg.addBypassFrom("application : BYPASS BS")
+gg.addBypassFrom("application : BYPASS BS")
+gg.addBypassFrom("application : BYPASS BS")
+gg.addBypassFrom("application : BYPASS BS")
+gg.addBypassFrom("application : BYPASS BS")
+gg.addBypassFrom("application : BYPASS BS")
+gg.addBypassFrom("application : BYPASS BS")
+gg.addBypassFrom("application : BYPASS BS")
+gg.addBypassFrom("application : BYPASS BS")
+gg.addBypassFrom("application : BYPASS BS")
+gg.addBypassFrom("application : BYPASS BS")
+gg.addBypassFrom("application : BYPASS BS")
+gg.addBypassFrom("application : BYPASS BS")
+gg.addBypassFrom("application : BYPASS BS")
+gg.addBypassFrom("application : BYPASS BS")
+gg.addBypassFrom("application : BYPASS BS")
+gg.addBypassFrom("application : BYPASS BS")
+gg.addBypassFrom("application : BYPASS BS")
+gg.addBypassFrom("application : BYPASS BS")
+gg.addBypassFrom("application : BYPASS BS")
+gg.addBypassFrom("application : BYPASS BS")
+gg.addBypassFrom("application : BYPASS BS")
+gg.addBypassFrom("application : BYPASS BS")
+gg.addBypassFrom("application : BYPASS BS")
+gg.addBypassFrom("application : BYPASS BS")
+gg.addBypassFrom("application : BYPASS BS")
+gg.addBypassFrom("application : BYPASS BS")
+gg.addBypassFrom("application : BYPASS BS")
+gg.addBypassFrom("application : BYPASS BS")
+gg.addBypassFrom("application : BYPASS BS")
+gg.addBypassFrom("application : BYPASS BS")
+gg.addBypassFrom("application : BYPASS BS")
+]]--
+end
+	
+	
+
+function c9()
+IMmenu = gg.multiChoice({
+"MB OPTIC"
+}, nil, "Telegram: @dosshit")
+if IMmenu == nil then 
+HOME()
+else
+if IMmenu[1] == true then 
+aim() 
+end
+end
+YACHIRU = -1
+end
+
+function aim()
+gg.clearResults()
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("1.0F;4.59177481e-39F:17", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+local results = gg.getResults(10)
+if #results > 0 then
+for i, v in ipairs(results) do
+if v.value == 1.0 then
+v.value = 1.003
+v.freeze = true
+end
+end
+gg.addListItems(results)
+gg.toast("MB OPTIC ON")
+else
+gg.toast("Not Found !!!")
+end
+gg.clearResults()
+end
+
+function c10()
+gg.alert(("☣𝐏𝐁𝐒 𝐕𝐈𝐏☣"))
+print(("⠀⢠⣶⣿⣿⣗⡢⠀⠀⠀⠀⠀⠀⢤⣒⣿⣿⣷⣆⠀⠀"))
+print(("⠀⠋⠉⠉⠙⠻⣿⣷⡄⠀⠀⠀⣴⣿⠿⠛⠉⠉⠉⠃⠀"))
+print(("⠀⠀⢀⡠⢤⣠⣀⡹⡄⠀⠀⠀⡞⣁⣤⣠⠤⡀⠀⠀⠀"))
+print(("⢐⡤⢾⣿⣿⢿⣿⡿⠀⠀⠀⠀⠸⣿⣿⢿⣿⣾⠦⣌⠀"))
+print(("⠁⠀⠀⠀⠉⠈⠀⠀⣸⠀⠀⢰⡀⠀⠈⠈⠀⠀⠀⠀⠁"))
+print(("⠀⠀⠀⠀⠀⠀⣀⡔⢹⠀⠀⢸⠳⡄⡀⠀⠀⠀⠀⠀⠀"))
+print(("⠸⡦⣤⠤⠒⠋⠘⢠⡸⣀⣀⡸⣠⠘⠉⠓⠠⣤⢤⡞⠀"))
+print(("⠀⢹⡜⢷⣄⠀⣀⣀⣾⡶⢶⣷⣄⣀⡀⢀⣴⢏⡾⠁⠀"))
+print(("⠀⠀⠹⡮⡛⠛⠛⠻⠿⠥⠤⠽⠿⠛⠛⠛⣣⡾⠁⠀⠀"))
+print(("⠀⠀⠀⠙⢄⠁⠀⠀⠀⣄⣀⡄⠀⠀⠀⢁⠞⠀⠀⠀⠀"))
+print(("⠀⠀⠀⠀⠀⠂⠀⠀⠀⢸⣿⠀⠀⠀⠠⠂⠀⠀⠀⠀⠀"))
+print(("☣𝐏𝐁𝐒 𝐕𝐈𝐏☣"))
+os.exit()
+running=false
+end
+while true do
+	if gg.isVisible(false) then
+		YACHIRU = 1
+		gg.setVisible(false)
+	end
+	if YACHIRU == 1 then HOME() end
+end
